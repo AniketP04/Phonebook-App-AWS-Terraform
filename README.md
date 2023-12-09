@@ -124,10 +124,6 @@ thousand                         Warning -> 'Invalid input: Phone number should 
         |----delete.html     # Given to the students (HTML template)
 ```
 
-## Expected Outcome
-
-![Phonebook App Search Page](./search-snapshot.png)
-
 ### At the end of the project, following topics are to be covered;
 
 - Algorithm design
@@ -200,6 +196,9 @@ thousand                         Warning -> 'Invalid input: Phone number should 
 
 - Step 6: Run `terraform destroy` command to destroy resources that you created with terraform.
 
+## Demo
+
+https://github.com/AniketP04/Phonebook-App-AWS-Terraform/assets/128228805/5055655a-5d1b-4d56-a40a-143bf00baae3
 
 ## Notes
 
