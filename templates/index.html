@@ -65,10 +65,50 @@
       color: #304146;
     }
 
+    ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: green;
+}
+
   </style>
 </head>
 
 <body>
+
+  <nav class="navbar navbar-dark bg-dark">
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item active">
+          <a class="nav-link" href="index.html">Home <span class="sr-only"></span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="add-update.html">Add-Update</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="delete.html">Delete</a>
+        </li>
+      </ul>
+    </div>
+  </nav>  
 
 <!--   <div><img src="https://clarusway.com/wp-content/uploads/2020/06/clarusway_logo.png" /></div> -->
 
